@@ -710,22 +710,32 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-s2slgRPCZV {
-  padding-top: 45px;
-  padding-bottom: 30px;
+.cid-s2tqn8I0JT {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/nu-umer-i-umer-2-1080x919.jpeg");
 }
-.cid-s2slgRPCZV P {
+.cid-s2tqn8I0JT P {
   color: #767676;
 }
-.cid-s2slgRPCZV H1 {
+.cid-s2tqn8I0JT H1 {
   color: #ffffff;
 }
-.cid-s2slgRPCZV .mbr-text,
-.cid-s2slgRPCZV .mbr-section-btn {
+.cid-s2tqn8I0JT .mbr-text,
+.cid-s2tqn8I0JT .mbr-section-btn {
   color: #efefef;
+  text-align: center;
+}
+.cid-s2trrXIqeR {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+.cid-s2trrXIqeR P {
+  color: #767676;
 }
 .cid-s2spykHmBk {
-  padding-top: 90px;
+  padding-top: 45px;
   padding-bottom: 90px;
   background-color: #efefef;
 }
