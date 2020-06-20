@@ -725,6 +725,11 @@ section.lazy-placeholder:after {
   color: #efefef;
   text-align: center;
 }
+.cid-s2tRShgNXM {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #efefef;
+}
 .cid-s2tBdt3gDt {
   padding-top: 30px;
   padding-bottom: 0px;
@@ -734,8 +739,8 @@ section.lazy-placeholder:after {
   color: #767676;
 }
 .cid-s2spykHmBk {
-  padding-top: 45px;
-  padding-bottom: 90px;
+  padding-top: 0px;
+  padding-bottom: 45px;
   background-color: #efefef;
 }
 .cid-s2spykHmBk .card-box {
