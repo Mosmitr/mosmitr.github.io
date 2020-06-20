@@ -909,3 +909,47 @@ section.lazy-placeholder:after {
 .cid-s2t3XXBgO3 .card-title {
   text-align: center;
 }
+.cid-s2tWA8rggg {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-s2tWA8rggg .card-box {
+  padding: 0 2rem;
+}
+.cid-s2tWA8rggg .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-s2tWA8rggg .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-s2tWA8rggg h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-s2tWA8rggg p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-s2tWA8rggg .mbr-text {
+  color: #767676;
+  text-align: center;
+}
+.cid-s2tWA8rggg .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-s2tWA8rggg .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-s2tWA8rggg .card-title {
+  text-align: center;
+}
