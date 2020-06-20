@@ -542,8 +542,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Rubik', sans-serif;
@@ -712,8 +712,7 @@ section.lazy-placeholder:after {
 }
 .cid-s2tqn8I0JT {
   padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/nu-umer-i-umer-2-1080x919.jpeg");
+  padding-bottom: 75px;
 }
 .cid-s2tqn8I0JT P {
   color: #767676;
@@ -726,12 +725,12 @@ section.lazy-placeholder:after {
   color: #efefef;
   text-align: center;
 }
-.cid-s2trrXIqeR {
+.cid-s2tBdt3gDt {
   padding-top: 30px;
   padding-bottom: 0px;
   background-color: #efefef;
 }
-.cid-s2trrXIqeR P {
+.cid-s2tBdt3gDt P {
   color: #767676;
 }
 .cid-s2spykHmBk {
@@ -777,6 +776,14 @@ section.lazy-placeholder:after {
 }
 .cid-s2spykHmBk .card-title {
   text-align: center;
+}
+.cid-s2tC75Ahh8 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-s2tC75Ahh8 P {
+  color: #767676;
 }
 .cid-s2t0n64O3x {
   padding-top: 90px;
