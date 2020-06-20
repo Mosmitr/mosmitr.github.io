@@ -1,2 +1,0 @@
-# mosmitr.github.io
-hosting
