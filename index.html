@@ -2,14 +2,43 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Идут работы</title><!--Заголовок сайта-->>
-  <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
-  <style>
-      .guf {text-align: center; /* Выравнивание по центру */}
-  </style>    
+  <title>Идут работы</title><!--Заголовок сайта-->
+  <link rel="stylesheet" type="text/css" href="style.css"><!--Подключение CSS-->
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"><!--Иконка сайта-->  
+  <script src="oscript.js"></script> 
  </head>
  <body>
+   <!--Вкладки-->
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Москва')">Москва</button>
+    <button class="tablinks" onclick="openCity(event, 'Берлин')">Берлин</button>
+    <button class="tablinks" onclick="openCity(event, 'Пекин')">Пекин</button>
+  </div>
+  
+  <div id="Москва" class="tabcontent">
+    <h3>Москва</h3>
+    <p>Москва это столица России.</p>
+  </div>
+  
+  <div id="Берлин" class="tabcontent">
+    <h3>Берлин</h3>
+    <p>Берлин это столица Германии.</p> 
+  </div>
+  
+  <div id="Пекин" class="tabcontent">
+    <h3>Пекин</h3>
+    <p>Пекин это столица Китая.</p>
+  </div>
+  <!--Вкладки-->
+   <!-- <ul class="menu-main">
+        <li><a href="" class="current">Work</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
     <p class="guf"><img src="img/puls.gif" 
-        width="750" height="450" alt="Фотография"></p>
+        width="750" height="450" alt="Фотография"></p>-->
+        
+
  </body>
 </html>
