@@ -1,4 +1,4 @@
-
+/* Меню */
   a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
   li {display: inline;}
   .guf {text-align: center; /* Выравнивание по центру */}
@@ -56,45 +56,32 @@
   margin: 0 30px;}
 }
 
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+/* Таблица с вкладками*/
+.tabs { width: 100%; padding: 0px; margin: 0 auto; }
+.tabs>input { display: none; }
+.tabs>div {
+    display: none;
+    padding: 12px;
+    border: 1px solid #C0C0C0;
+    background: #FFFFFF;
 }
-
-.tab {
-  overflow: hidden;
-  border: 1px solid #4CAF50;
-  background-color: #C8E6C9;
+.tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #666666;
+    border: 1px solid #C0C0C0;
+    background: #E0E0E0;
+    cursor: pointer;
 }
-
-
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
+.tabs>input:checked + label {
+    color: #000000;
+    border: 1px solid #C0C0C0;
+    border-bottom: 1px solid #FFFFFF;
+    background: #FFFFFF;
 }
-
-
-.tab button:hover {
-  background-color: #FFEB3B;
-}
-
-
-.tab button.active {
-  background-color: #4CAF50;
-  color: #fff;
-}
-
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #4CAF50;
-  border-top: none;
-}
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2,
+#tab_3:checked ~ #txt_3,
+#tab_4:checked ~ #txt_4 { display: block; }
