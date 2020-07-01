@@ -1,8 +1,11 @@
 .ramka {
   margin: 0 auto;
-  height: 200px; /* Высота блока */
-    width: 1200px; /* Ширина блока */
+    height: 500px; /* Высота блока */
+    width: 100%; /* Ширина блока */
+    max-width: 1000px;
     overflow: auto; /* Добавляем полосы прокрутки */
     padding-left: 15px; /* Отступ от текста слева */
-    background: url(img/background.jpg) repeat-y #fc0;
+    margin-top: 3%; /*верхний отступ*/
+    background: url(img/background2.jpg) #fc0;
+    background-size: contain;
 }
